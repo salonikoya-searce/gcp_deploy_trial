@@ -1,11 +1,11 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "server": "nodemon index.js"
+    "server": "nodemon index.js",
+    "build": "echo 'build script executed'" 
   },
   "author": "saloni",
   "license": "ISC",
@@ -17,5 +17,15 @@
     "express-async-handler": "^1.2.0",
     "mongoose": "^6.6.0",
     "nodemon": "^2.0.19"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salonikoya-searce/gcp_deploy_trial.git"
+  },
+  "bugs": {
+    "url": "https://github.com/salonikoya-searce/gcp_deploy_trial/issues"
+  },
+  "homepage": "https://github.com/salonikoya-searce/gcp_deploy_trial#readme",
+  "description": ""
 }
